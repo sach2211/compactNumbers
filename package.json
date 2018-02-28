@@ -1,6 +1,6 @@
 {
   "name": "compactnums",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A compact way to show big numbers",
   "main": "index.js",
   "scripts": {
