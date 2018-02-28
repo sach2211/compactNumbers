@@ -1,7 +1,7 @@
 ### Usage Instructions - 
 
-import { compactNums } from 'compactums';
+import { compactNumbers } from 'compactums';
 
 or
 
-require('compactnums').compactnums;
+require('compactnums').compactNumbers;
