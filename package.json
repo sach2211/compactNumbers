@@ -18,11 +18,11 @@
     "url": "https://github.com/sach2211/compactNumbers/issues"
   },
   "homepage": "https://github.com/sach2211/compactNumbers#readme",
-  "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.3",
-    "babel-preset-env": "^1.6.1",
-    "uglifyjs-webpack-plugin": "^1.2.2",
-    "webpack": "^3.9.1"
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.3",
+    "babel-preset-env": "1.6.1",
+    "uglifyjs-webpack-plugin": "1.2.2",
+    "webpack": "3.9.1"
   }
 }
