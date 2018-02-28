@@ -1,0 +1,19 @@
+{
+  "name": "compactnums",
+  "version": "0.0.1",
+  "description": "A compact way to show big numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sach2211/compactNumbers.git"
+  },
+  "author": "sach2211",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sach2211/compactNumbers/issues"
+  },
+  "homepage": "https://github.com/sach2211/compactNumbers#readme"
+}

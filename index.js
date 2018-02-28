@@ -1,4 +1,4 @@
-function condensedNumbers(num, x = 1) {
+function compactNumbers(num, x = 1) {
   if (isNaN(num)) {
     return '0';
   }
@@ -32,5 +32,5 @@ function condensedNumbers(num, x = 1) {
   return newNum;
 }
 
-module.exports = { condensedNumbers: condensedNumbers };
+module.exports = { compactNumbers: compactNumbers };
 
