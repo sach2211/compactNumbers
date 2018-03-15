@@ -27,7 +27,7 @@ function compactNumbers(num, x = 1) {
     newNum += temp[i] + (temp[i+1] !== '0' ? ('.' + temp[i+1]) : ('')) + 'k';
   }
   if ((temp.length - x) == 3) {
-    newNum += 'k';
+    newNum += (temp[i] !== '0' ? ('.' + temp[i]) : ('')) + 'k';
   }
   return newNum;
 }

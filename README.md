@@ -4,4 +4,8 @@ import { compactNumbers } from 'compactums';
 
 or
 
-require('compactnums').compactNumbers;
+var compactNumbers = require('compactnums').compactNumbers;
+
+Then use like this - 
+compactNumbers(20509)
+// output - "20.5k"

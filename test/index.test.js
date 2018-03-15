@@ -1,4 +1,4 @@
-var cm = require('./index.js').condensedNumbers;
+var cm = require('../index.js').compactNumbers;
 
 if (cm(0) !== '0') {
   console.error('Test 1 Failed');
@@ -25,7 +25,7 @@ if (cm(5120000) !== '51.2L') {
 }
 
 if (cm(5120000) !== '51.2L') {
-  console.error('Test 6 Failed');
+  console.error('Test 7 Failed');
 }
 
 if (cm(NaN) !== '0') {
@@ -34,4 +34,8 @@ if (cm(NaN) !== '0') {
 
 if (cm(undefined) !== '0') {
   console.error('Test 9 Failed');
+}
+
+if (cm(2500) !== '2.5k') {
+  console.error('Test 10 Failed');
 }
